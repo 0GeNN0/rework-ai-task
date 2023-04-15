@@ -1,0 +1,85 @@
+.testmonials {
+  margin: 130px auto 168px;
+  width: 850px;
+  display: grid;
+}
+
+.testmonials .testmonials-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-weight: 300;
+  margin-bottom: 76px;
+}
+
+.testmonials .testmonials-header h2 {
+  font-size: 60px;
+  line-height: 57px;
+  font-weight: inherit;
+}
+
+.testmonials .testmonials-header .line {
+  width: 3px;
+  height: 72px;
+  background-color: #f48850;
+}
+
+.testmonials .testmonials-header p {
+  font-size: 32px;
+  line-height: 36px;
+  max-width: 380px;
+}
+
+.testmonials .testmonials-header p span {
+  color: #e46d2f;
+}
+
+/*...........................................*/
+/*...........................................*/
+
+.testmonials .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  font-family: "Lato";
+  margin-bottom: 76px;
+}
+
+.testmonials .cards .card {
+  padding: 59px 44px;
+}
+
+.testmonials .cards .card .heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+.testmonials .cards .card .heading .title h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1e1e1e;
+}
+
+.testmonials .cards .card .heading .title span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #686868;
+}
+
+.testmonials .cards .card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+
+/*...........................................*/
+/*...........................................*/
+
+.testmonials button {
+  justify-self: center;
+}

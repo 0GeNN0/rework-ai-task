@@ -1,0 +1,52 @@
+.statistics {
+  width: 1276px;
+  margin-inline: 165px 71px;
+  margin-bottom: 285px;
+}
+
+.statistics h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  margin-bottom: 90px;
+}
+
+.assets {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+
+.assets .numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 68px;
+}
+
+.assets .numbers .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.assets .numbers .item .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  border: 6px solid #f48850;
+  color: #f48850;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+}
+
+.assets .numbers .item h4 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 112%;
+  text-align: center;
+}

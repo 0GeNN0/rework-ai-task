@@ -1,0 +1,39 @@
+.landing-section {
+  max-width: 877px;
+  margin: 140px auto 197px;
+  display: flex;
+  gap: 200px;
+}
+
+.landing-section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.landing-section .text h1 {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 125%;
+  position: relative;
+}
+
+.landing-section .text h1::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../assets/images/line.png");
+  width: 184px;
+  height: 15px;
+  background-repeat: no-repeat;
+  top: 50px;
+}
+
+.landing-section .text p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1e1e1e;
+  font-family: Lato;
+  font-weight: 300;
+}

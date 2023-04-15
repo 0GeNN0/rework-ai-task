@@ -1,0 +1,18 @@
+.insights {
+  width: 1209px;
+  margin: 207px auto 145px;
+}
+
+.insights h2 {
+  margin-bottom: 75px;
+}
+
+.insights h2 span {
+  color: #f48850;
+}
+
+.insights .readings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

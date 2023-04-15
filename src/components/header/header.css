@@ -1,0 +1,23 @@
+.header {
+  padding: 24px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.header .links {
+  display: flex;
+  gap: 32px;
+}
+
+.header .links button {
+  padding: 4px 20px;
+}
+
+.header ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  list-style: none;
+}

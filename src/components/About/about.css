@@ -1,0 +1,49 @@
+.about {
+  width: 1015px;
+  margin: auto;
+}
+
+.section-heading {
+  margin-bottom: 100px;
+}
+
+.about .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about article {
+  max-width: 455px;
+  text-align: center;
+}
+
+.about article p {
+  color: #3f3f3f;
+  font-size: 20px;
+  line-height: 140.5%;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.about .main .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px 61px;
+}
+
+.about .main .grid .grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about .main .grid .grid-item img {
+  margin-bottom: 12px;
+}
+
+.about .main .grid .grid-item p {
+  font-size: 16px;
+  line-height: 19px;
+}

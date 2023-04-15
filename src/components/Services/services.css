@@ -1,0 +1,43 @@
+.services {
+  width: 1290px;
+  margin: 0 auto 190px;
+}
+
+.services .grid-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px 90px;
+}
+
+.services .card {
+  padding: 60px 40px;
+  border-radius: 30px;
+  border: 1px solid #bebebe;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.services .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.services .card .text h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.services .card .text p {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.services .card .text span {
+  font-size: 16px;
+  color: #d25412;
+}
