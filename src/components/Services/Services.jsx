@@ -8,19 +8,19 @@ import './services.css';
 
 const services = [
   {
-    img: '../../src/assets/images/e-commerce.png',
+    img: '../../assets/images/e-commerce.png',
     title: 'eCommerce Competitive Analtics',
     describtion: 'Map your brand to the eCommerce landscape to enhance market share with real-time market intelligence.'
   }, {
-    img: '../../src/assets/images/clould.png',
+    img: '../../assets/images/clould.png',
     title: 'Brand Hygiene Protection',
     describtion: 'Get the full visibility and control of your marketing campaigns with advanced algorithms that safeguard brands from safety and infringement issues.'
   }, {
-    img: '../../src/assets/images/mobile.png',
+    img: '../../assets/images/mobile.png',
     title: 'Mobile Identity Solution',
     describtion: 'Seamless identity verification to eliminate risk and fraud at a single go with minimal user inpuat and reducing friction in identity validation'
   }, {
-    img: '../../src/assets/images/advertising.png',
+    img: '../../assets/images/advertising.png',
     title: 'Ad Traffic Validation',
     describtion: 'mFilterIt’s ad fraud detection solution provides deterministic ad-fraud detection & prevention for both App & Web campaigns and help advertisers save money with better ROI.'
   }
