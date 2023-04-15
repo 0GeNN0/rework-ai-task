@@ -8,7 +8,7 @@ function Image({ iSrc }) {
   };
 
   return (
-    <img styles={styles} src={iSrc} alt="Image" />
+    <img src={iSrc} alt="Image" styles={styles} />
   );
 }
 
