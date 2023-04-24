@@ -3,24 +3,29 @@ import React from "react";
 // Components
 import Image from "../Image/Image";
 
+// Images
+import eCommerce from '../../assets/images/e-commerce.png';
+import clould from '../../assets/images/clould.png';
+import mobile from '../../assets/images/mobile.png';
+import advertising from '../../assets/images/advertising.png';
 // CSS
 import './services.css';
 
 const services = [
   {
-    img: '../../assets/images/e-commerce.png',
+    img: eCommerce,
     title: 'eCommerce Competitive Analtics',
     describtion: 'Map your brand to the eCommerce landscape to enhance market share with real-time market intelligence.'
   }, {
-    img: '../../assets/images/clould.png',
+    img: clould,
     title: 'Brand Hygiene Protection',
     describtion: 'Get the full visibility and control of your marketing campaigns with advanced algorithms that safeguard brands from safety and infringement issues.'
   }, {
-    img: '../../assets/images/mobile.png',
+    img: mobile,
     title: 'Mobile Identity Solution',
     describtion: 'Seamless identity verification to eliminate risk and fraud at a single go with minimal user inpuat and reducing friction in identity validation'
   }, {
-    img: '../../assets/images/advertising.png',
+    img: advertising,
     title: 'Ad Traffic Validation',
     describtion: 'mFilterIt’s ad fraud detection solution provides deterministic ad-fraud detection & prevention for both App & Web campaigns and help advertisers save money with better ROI.'
   }
